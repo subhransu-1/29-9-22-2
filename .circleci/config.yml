@@ -16,6 +16,7 @@ jobs:
           path: .
       - terraform/fmt:
           path: .
+      - RUN: ls && pwd
       - terraform/apply:
           path: .
       - terraform destroy:
